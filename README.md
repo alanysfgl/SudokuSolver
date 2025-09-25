@@ -1,13 +1,19 @@
 # SudokuSolver
 
-Proje Açıklaması
-Bu proje, bir Sudoku bulmacasını çözebilmek için backtracking algoritmasını kullanan bir uygulamadır. C++ dilinde yazılmıştır. Sudoku tablosu bir dosyadan okunur, çözülür ve çözülmüş tablo başka bir dosyaya kaydedilir.
+## 📖 Description
+**SudokuSolver** is a C++ application that solves 9×9 Sudoku puzzles using a **backtracking algorithm**.  
+The puzzle is read from a file, solved by the program, and the solution is saved to another file.  
+This project demonstrates **algorithmic problem solving**, recursion, and file I/O handling in C++.
 
-Proje Özellikleri
-Sudoku çözme işlemi için backtracking algoritması kullanır.
+---
 
-Sudoku bulmacası bir dosyadan (sudoku.txt) okunur.
+## ✨ Features
+- **Backtracking Algorithm**: Solves Sudoku puzzles efficiently  
+- **File Input/Output**: Reads puzzles from `sudoku.txt` and saves solutions to `solution.txt`  
+- **User-Friendly Terminal Interface**: Interact with the program through the console  
+- **Error Handling**: Validates input format and ensures solvable puzzles  
 
-Çözüm, başka bir dosyaya (cozum.txt) kaydedilir.
+---
 
-Kullanıcı dostu terminal arayüzü ile çalışır.
+## 🛠 Requirements
+- **C++17 or higher compiler** (g++, clang++, Visual Studio)  
